@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@mui/*": ["node_modules/@mui/*"],
+      "react-router-dom": ["node_modules/react-router-dom"],
+      "react-qr-scanner": ["node_modules/react-qr-scanner"]
+    },
+    "typeRoots": ["node_modules/@types", "./src/types"]
+  },
+  
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

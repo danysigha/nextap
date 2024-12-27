@@ -1,0 +1,242 @@
+.home-container {
+  /* width: 100%; */
+  min-height: 100vh;
+  background-color: #121212;
+  padding: 16px;
+}
+
+.home-content {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.welcome-header {
+  color: #4caf50; /* Bright green for welcome header */
+  margin-bottom: 16px;
+}
+
+.welcome-description {
+  color: #ffffff; /* White description text */
+  margin-bottom: 24px;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  text-transform: none;
+}
+
+/* General Container */
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  background-color: #f9f9f9;
+  color: #333; /* Default text color for better visibility */
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: #007bff; /* Blue background for header */
+  color: #ffffff; /* White text for better contrast */
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.header-left {
+  font-size: 0.9rem;
+}
+
+.market-cap {
+  font-size: 0.9rem;
+}
+
+.green {
+  color: #28a745;
+}
+
+.red {
+  color: #dc3545;
+}
+
+.orange {
+  color: #ff9900;
+}
+
+.header-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.header-icons i {
+  width: 24px;
+  height: 24px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+/* Today's Prices Section */
+.today-prices {
+  margin-bottom: 16px;
+  color: #333; /* Text color for better contrast */
+}
+
+.today-prices h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222; /* Darker color for heading */
+}
+
+.today-prices p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #444; /* Enhanced text color for body text */
+}
+
+.today-prices .bold {
+  font-weight: bold;
+  color: #222;
+}
+
+.read-more {
+  color: #007bff; /* Blue text for links */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Stats Overview */
+.stats-overview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.stat-item {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #333; /* Darker text color */
+}
+
+.stat-item p {
+  font-size: 0.9rem;
+  color: #444; /* Enhanced contrast */
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.filter-btn,
+.customize-btn {
+  background: #007bff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Tabs Section */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #333; /* Default tab text color */
+}
+
+.tab.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Crypto Table */
+.crypto-table {
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #333; /* Table text color */
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+.homeTableHeader{
+  padding: 8px;
+}
+
+.table-row span { 
+  display: flex;
+  align-items: center;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stats-overview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .crypto-table .table-header,
+  .crypto-table .table-row {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .header-icons i {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .crypto-table .table-header,
+  .crypto-table .table-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}

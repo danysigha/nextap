@@ -1,0 +1,30 @@
+{
+    "marketCap": "Market Cap",
+    "marketCapValue": "Market Cap: $3.5T ↑ 1.76%",
+    "todayPrices": "Today's Cryptocurrency Prices by Market Cap",
+    "globalMarketCap": "The global crypto market cap is",
+    "increase": "a 1.76% ↑ increase over the last day.",
+    "readMore": "Read More",
+    "stats": {
+      "marketCap": "Market Cap",
+      "24hVol": "24h Vol",
+      "dominance": "Dominance",
+      "fearGreed": "Fear & Greed"
+    },
+    "filters": "Filters",
+    "customize": "Customize",
+    "tabs": {
+      "all": "All",
+      "nfts": "NFTs",
+      "categories": "Categories",
+      "tokenUnlocks": "Token Unlocks"
+    },
+    "table": {
+      "name": "Name",
+      "price": "Price",
+      "change1h": "1h %"
+    },
+    "loading": "Loading...",
+    "error": "Error:"
+  }
+  

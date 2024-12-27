@@ -1,0 +1,14 @@
+body {
+    color: #ffffff; /* Default text color set to white */
+    background-color: #121212; /* Dark background */
+    font-family: "Arial", sans-serif; /* Optional: Set a default font family */
+  }
+  
+  a {
+    color: #4caf50; /* Green for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #81c784; /* Lighter green on hover */
+  }

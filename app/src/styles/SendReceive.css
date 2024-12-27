@@ -1,0 +1,47 @@
+.send-receive-container {
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.send-receive-content {
+  margin-top: 32px;
+  min-height: 60vh;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.input-field {
+  margin-bottom: 16px;
+}
+
+.action-buttons {
+  text-align: center;
+}
+
+.confirm-button {
+  width: 25%;
+  color: white !important;
+  background-color: #4caf50 !important;
+  text-transform: none !important;
+  border-radius: 2em !important;
+}
+
+.cancel-button, .edit-button {
+  width: 25%;
+  margin-right: 12% !important;
+  color: white !important;
+  border-color: #9c27b0 !important;
+  text-transform: none !important;
+  background-color: #9c27b0 !important;
+  border-radius: 2em !important;
+}
+
+label , input ,p{
+ color:  #aeaeae !important;
+}
+
+button{
+  margin: 10px !important;
+}

@@ -1,0 +1,30 @@
+{
+    "marketCap": "Capitalisation Boursière",
+    "marketCapValue": "Capitalisation Boursière: $3.5T ↑ 1.76%",
+    "todayPrices": "Prix des Cryptomonnaies Aujourd'hui par Capitalisation Boursière",
+    "globalMarketCap": "La capitalisation globale du marché des cryptomonnaies est",
+    "increase": "une augmentation de 1.76% ↑ au cours des dernières 24 heures.",
+    "readMore": "Lire Plus",
+    "stats": {
+      "marketCap": "Capitalisation Boursière",
+      "24hVol": "Volume 24h",
+      "dominance": "Dominance",
+      "fearGreed": "Peur et Avidité"
+    },
+    "filters": "Filtres",
+    "customize": "Personnaliser",
+    "tabs": {
+      "all": "Tout",
+      "nfts": "NFTs",
+      "categories": "Catégories",
+      "tokenUnlocks": "Déblocages de Tokens"
+    },
+    "table": {
+      "name": "Nom",
+      "price": "Prix",
+      "change1h": "1h %"
+    },
+    "loading": "Chargement...",
+    "error": "Erreur:"
+  }
+  

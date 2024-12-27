@@ -1,0 +1,146 @@
+.navbar {
+  background-color: #262626; /* Set background color */
+  color: #ffffff; /* Text color */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Optional shadow */
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between; /* Align left and right sections */
+  align-items: center;
+  padding: 0 16px; /* Add horizontal padding */
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50; /* Green color for the app title */
+  text-decoration: none;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Space between menu, username, and logout */
+}
+
+.menu-icon {
+  color: #ffffff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.welcome-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.logout-button {
+  text-transform: none;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.logout-button:hover {
+  background-color: #81c784; /* Lighter green on hover */
+}
+
+/* ///////////////------------------------------------------------------- */
+
+.navbar {
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+/* Left Section: Menu Icon and App Title */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adds space between menu icon and "Nextap" */
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.app-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* Right Section: User Greeting and Logout */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Pushes the right section to the end of the navbar */
+  gap: 16px; /* Adds space between "Hello, John Doe" and the logout icon */
+}
+
+.greet-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.logout-icon:hover {
+  color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-left .app-title {
+    font-size: 1rem;
+  }
+
+  .navbar-right .greet-text {
+    font-size: 0.8rem;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+}
+.navbar {
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.greet-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.logout-icon:hover {
+  color: #0056b3;
+}

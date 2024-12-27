@@ -1,0 +1,27 @@
+.statements-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #121212;
+  padding: 16px;
+}
+
+.statements-content {
+  margin-top: 32px;
+}
+
+.header-text {
+  color: #4caf50;
+  margin-bottom: 16px;
+}
+
+.MuiListItemText-primary {
+  color: #ffffff;
+}
+
+.MuiListItemText-secondary {
+  color: #9c27b0;
+}
+
+p{
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+.money-transfer-container {
+    /* width: 100%; */
+    min-height: 100vh;
+    background-color: #121212;
+    padding: 16px;
+    /* display: flex;
+    flex-flow: row;
+    align-items: center; */
+  }
+  
+  .money-transfer-content {
+    min-height: 80vh;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .input-field {
+    margin-bottom: 16px;
+  }
+  
+  .action-buttons {
+    text-align: center;
+  }
+  
+  .send-receive-buttons {
+    width: 100%;
+  }
+
+  .receive-button {
+    width: 45%;
+    color: white !important;
+    margin-right: 6% !important;
+    background-color: #4caf50 !important;
+    text-transform: none !important;
+    border-radius: 2em !important;
+  }
+  
+  .send-button {
+    width: 45%;
+    color: white !important;
+    border-color: #9c27b0 !important;
+    text-transform: none !important;
+    background-color: #9c27b0 !important;
+    border-radius: 2em !important;
+  }

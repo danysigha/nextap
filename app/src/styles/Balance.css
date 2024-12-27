@@ -1,0 +1,19 @@
+.balance-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+    padding: 16px;
+  }
+  
+  .balance-content {
+    margin-top: 32px;
+  }
+  
+  .balance-header {
+    text-align: center;
+  }
+  
+  .balance-amount {
+    color: #4caf50;
+    font-weight: bold;
+  }

@@ -1,0 +1,114 @@
+/* General Container */
+.admin-page-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 24px;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .admin-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Overview Cards */
+  .overview-card {
+    background-color: #121212;
+    border: 1px solid #333;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #cccccc;
+    margin-bottom: 8px;
+  }
+  
+  .card-value {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin-bottom: 24px;
+  }
+  
+  .search-bar .MuiOutlinedInput-root {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .search-bar .MuiOutlinedInput-notchedOutline {
+    border-color: #28a745;
+  }
+  
+  .search-bar .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #4caf50;
+  }
+  
+  /* Data Cards */
+  .data-card {
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 12px;
+  }
+  
+  .admin-table {
+    width: 100%;
+  }
+  
+  .adminTableHeader {
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    background-color: #28a745;
+    border-radius: 0;
+  }
+  
+  .table-cell {
+    color: #cccccc;
+    font-size: 0.85rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .admin-header {
+      font-size: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-value {
+      font-size: 1.5rem;
+    }
+  
+    .adminTableHeader {
+      font-size: 0.8rem;
+    }
+  
+    .table-cell {
+      font-size: 0.75rem;
+    }
+  }
+  .css-1j74uew-MuiPaper-root-MuiCard-root {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+.css-1dc80h3-MuiTableCell-root{
+    color: #ffffff !important;
+    
+  }
+  
